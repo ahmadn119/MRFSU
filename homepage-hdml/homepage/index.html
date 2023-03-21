@@ -1,0 +1,70 @@
+<!-- Main page: An educational website about mechanical tools. -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>mechanical tools | Home</title>
+    <script>
+
+    // Play a sound when a user clicks the button in the nav-bar.
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+    </script>
+  </head>
+  <body>
+
+    <!-- Navigation bar for mechanical tools! -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><b>Mechanical Tools</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hand.html">Hand Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="digital.html">Digital Tools</a>
+          <li class="nav-item">
+            <a class="nav-link" href="safety.html">Saftey</a>
+          </li>
+        </ul>
+        <!-- Button/audio clip of wrench used in the nav-bar -->
+        <button onclick="play_sound('sounds/wrench.mp3')" type="button" class="btn btn-outline-info"><img src="images/wrench.jpg" alt="Image of a wrench" width="30"></button>
+      </div>
+    </nav>
+
+    <!-- Homepage content -->
+    <h1 style= "margin-left: 200pt;">Welcome to knowledge of mechanical tools</h1>
+    <h4 style= "margin-left: 200pt;">A general education for industrial people</h4>
+    <img class ="indent_img" src="images/grouptools.jpg" alt="A group of tools" width="615">
+    <h6 style="margin-left: 200pt; margin-top: 15px"><em>"For some people, tools are all the joy of life."</em></h6>
+    <h4 class="indent" style="margin-top: 25px; margin-bottom: 20px;">About Mechanical tools!</h4>
+    <hr class="solid">
+    <p class="indent" style="padding-bottom: 30px">
+
+      A machine tool is a machine for handling or machining metal or other rigid
+      materials, usually by cutting, boring, grinding, shearing, or other forms of deformations.<br><br>
+
+      Today machine tools are typically powered other than by the human
+      muscle (e.g., electrically, hydraulically, or via line shaft), used to make
+      manufactured parts <em>(components)</em> in various ways that include cutting or certain other kinds of deformation.<br><br>
+
+      All machine tools have some means of constraining the work piece and provide a guided
+      movement of the parts of the machine. Thus, the relative movement between the workpiece and
+      the cutting tool (which is called the toolpath) is controlled or constrained by the machine
+      to at least some extent, rather than being entirely "offhand" or "freehand". It is a power-driven metal
+      cutting machine which assists in managing the needed relative motion between cutting tool and the job
+      that changes the size and shape of the job material.
+
+
+    </p>
+  </body>
+</html>

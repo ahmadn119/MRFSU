@@ -1,0 +1,60 @@
+<!-- safety page: -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Safety</title>
+    <script>
+
+    // Play a sound when a user clicks the button in the nav-bar.
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+    </script>
+  </head>
+  <body>
+
+    <!-- Navigation bar for mechanical tools! -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><b>Mechanical Tools</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hand.html">Hand Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="digital.html">Digital Tools</a>
+          <li class="nav-item">
+            <a class="nav-link" href="safety.html">Safety</a>
+          </li>
+        </ul>
+        <!-- Button/audio clip of wrench used in the nav-bar -->
+        <button onclick="play_sound('sounds/wrench.mp3')" type="button" class="btn btn-outline-info"><img src="images/wrench.jpg" alt="Image of a wrench" width="30"></button>
+      </div>
+    </nav>
+
+    <!-- safety Content -->
+    <h1>Safety</h1>
+    <hr class="solid">
+    <img class="indent" src="images/safety.jpg" alt="safety." width="350" style="border: 2px solid grey;
+                 border-radius: 8px;">
+    <h6 class="indent" style="margin-top: 15px"><em>"Working safely is like breathing - if you don't, you die."</em><br><br></h6>
+
+    <p>Along with the links on the other pages, you can find more beginner information below:</p>
+    <ul class="indent" style="padding-bottom: 30px">
+      <li><a target="_blank" href="https://blog.vantagecircle.com/workplace-safety-quotes/">72 Best Workplace Safety Quotes From Inspirational Figures</a></li>
+      <li><a target="_blank" href="https://www.gfpmachines.com/10-general-workshop-safety-tips-rules/">10 General Workshop Safety Tips & Rules</a></li>
+      <li><a target="_blank" href="https://ronixtools.com/en/safety-equipment/">Some safety equipment of RONIX Company</a></li>
+      <li><a target="_blank" href="https://www.tvh.com/en-gb/blog/7-types-of-personal-protective-equipment-ppe-to-guarantee-your-safety">7 TYPES OF PERSONAL PROTECTIVE EQUIPMENT (PPE) TO GUARANTEE YOUR SAFETY</a></li>
+      <li><a target="_blank" href="https://solve.org.au/wp-content/uploads/2020/10/Workshop-Safety-Guidelines-Version-01.pdf">Download workshop safety guidelines</a></li>
+    </ul>
+  </body>
+</html>

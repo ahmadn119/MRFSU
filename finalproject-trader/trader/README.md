@@ -1,0 +1,14 @@
+#Trader
+####Video Demo:<https://youtu.be/ZnCeDKSPs6k>
+####Description
+A trader is a person, firm, or entity in finance who buys and sells financial instruments, such as forex, cryptocurrencies, stocks, bonds, commodities, derivatives, and mutual funds in the capacity of agent, hedger, arbitrageur, or speculator.
+A trader is an individual who engages in the buying and selling of financial assets in any financial market, either for themself or on behalf of another person or institution. The main difference between a trader and an investor is the duration for which the person holds the asset. Investors tend to have a longer-term time horizon, while traders tend to hold assets for shorter periods of time to capitalize on short-term trends.
+Many large financial institutions have trading rooms where traders are employees who buy and sell a wide range of products on behalf of the company. Each trader is given a limit as to how large of a position they can take, the position's maximum maturity and how much of a mark-to-market loss they can have before a position must be closed out. The company has the underlying risk and keeps most of the profit; the trader receives a salary and bonuses.
+According to the issues raised, every trader needs a lot of information to make exchanges in the shortest possible time and to get more profit. One of the most important information in the buying and selling of shares is the information related to the history of the shares. According to these conditions, the user can purchase and sell stocks by viewing the stock price history and the trend of its price changes in the past. The trader can observe the time periods of 5 years, 1 year, 6 months, 1 month, 5 days and 1 day of stock price changes according to his choice.
+Also, according to the previous trend of stocks, it is possible to analyze the future of these stocks with economic and mathematical methods, and in this way more accurate estimates can be made, which will ultimately lead to more profit.
+The program file consists of three parts, static file, template file, main files
+The main files include the app file and the helper file, which actually include the main body and executable. Also, the database related to stock information is also stored in this section.
+In the static file, the codes related to the style of the site are placed, and in the template part, the auxiliary files related to the different pages of the site are placed. This section also includes login, logout, sell, buy, etc. pages. In this project, work has been done on the quote section and an attempt has been made to enrich the user's information.
+In the next stage and in future projects, this part can be made much more productive and with mathematical techniques, the work of predicting the future of stocks can be made easier.
+Thanks to all the professors who helped me to this point.
+I hope this path will be a future for me.
